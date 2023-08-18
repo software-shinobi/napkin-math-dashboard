@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  paycheck-calculator:
+    container_name: paycheck-calculator
+    image: 10.10.0.69:14786/paycheck-calculator:latest
+    ports:
+      - 8181:80
+    restart: always

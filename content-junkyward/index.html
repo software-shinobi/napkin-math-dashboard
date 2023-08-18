@@ -1,0 +1,119 @@
+<!--  Source:  https://codepen.io/Hanapotski/pen/GEEERj-->
+<html>
+
+  <head>
+
+    <title> PayCheck Calculator | Software Shinobi </title>
+
+    <link rel="icon"
+          type="image/x-icon"
+          href="img/favicon.ico">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Bubbler+One" rel="stylesheet">
+
+    <!-- Application Specific CSS -->
+    <link rel="stylesheet" type="text/css" href="css/paycheck-calculator.css">
+
+    <!-- Application Specific JavaScript -->
+    <script src="js/paycheck-calculator.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="text-center">
+
+        <h1 class="title">Bi-Weekly Paycheck Calculator</h1>
+
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="text-center">
+
+        <h4> $ Per Hour</h4>
+
+        <br>
+        <input type="number" id="dollarPerHour">
+        <br>
+        <br>
+
+        <h4>Hours Per Pay Period</h4>
+        <br>
+
+        <input type="number" id="hoursPerWeek">
+        <br>
+
+      </div>
+
+    </div>
+
+    <div  class="container">
+
+      <div class="text-center">
+
+        <button type="submit" id="calculate">Calculate</button>
+
+        <div id="results" class="text-center">
+
+        <br>
+
+        <table id="calculateResultsTable" class="text-center table-center">
+
+          <thead>
+            <th>Period</th>
+            <th></th>
+            <th>Amount</th>
+          </thead>
+
+          <tr>
+            <td class="left">Bi-Weekly (Gross): </td>
+            <td class="middle"></td>
+            <td class="left"> $ <span id="grossAmountEarnedPerCheck"></span></td>
+          </tr>
+
+          <tr>
+            <td class="left">Bi-Weekly (Net): </td>
+            <td class="middle"></td>
+            <td class="left"> $ <span id="netAmountEarnedPerCheck"></span></td>
+          </tr>
+
+          <tr>
+            <td class="left">Yearly (Gross): </td>
+            <td class="middle"></td>
+            <td class="left"> $ <span id="grossAmountEarnedPerYear"></span></td>
+          </tr>
+
+          <tr>
+            <td class="left">Yearly (Net): </td>
+            <td class="middle"></td>
+            <td class="left"> $ <span id="netAmountEarnedPerYear"></span></td>
+          </tr>
+
+        </table>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <footer class="text-center"> &copy; SoftwareShinobi 2018 </footer>
+
+  </body>
+
+</html>

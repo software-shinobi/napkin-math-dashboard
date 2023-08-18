@@ -1,0 +1,70 @@
+body {
+  font-family: 'Bubbler One', sans-serif !important;
+  background-color: #E0F6F7;
+  border-color: #006699;
+  color: #006699;
+}
+
+table.table-center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+td {
+
+  width:110px
+}
+td.left {
+  text-align:left;
+}
+
+td.right {
+  text-align:right;
+}
+
+
+nav {
+  margin-top: 2em;
+}
+
+nav a {
+  text-transform: uppercase;
+  font-size: 2em;
+  padding: .5em;
+}
+
+nav a:hover {
+  text-decoration: none;
+  font-size: 2.5em;
+}
+
+.title {
+  color: #183666;
+  margin-bottom: 1em;
+  margin-top: .8em;
+}
+
+h4 {
+  display: inline;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+#amount, #percentage {
+  width: 5em;
+}
+
+#calculate {
+  margin-top: 1em;
+}
+
+footer {
+  margin-top: 5em;
+}
+
+#results {
+
+
+}
