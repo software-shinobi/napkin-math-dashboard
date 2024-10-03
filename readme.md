@@ -1,6 +1,6 @@
 # Simple Paycheck Calculator
 
-<img src="cover.png" />
+<img src="img/cover.png" />
 
 simple ass web app to calculate a rough paycheck amount.
 
