@@ -1,4 +1,4 @@
-## Too Lazy, Didn't Write A Bio
+# Simple Paycheck Calculator
 
 simple ass web app to calculate a rough paycheck amount.
 
@@ -10,4 +10,5 @@ but it's all in the math.
 
 Enjoy.
 
-## Namaste.
+## namaste.
+
