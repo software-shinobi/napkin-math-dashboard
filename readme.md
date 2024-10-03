@@ -1,5 +1,7 @@
 # Simple Paycheck Calculator
 
+<img src="cover.png" />
+
 simple ass web app to calculate a rough paycheck amount.
 
 i wrote this like 6 years ago. so all the math is as of ~2018
