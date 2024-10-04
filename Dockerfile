@@ -3,7 +3,7 @@
 #
 FROM httpd
 
-MAINTAINER Troy Burney “troy@softwareshinobi.com”
+MAINTAINER Troy Burney "the.software.shinobi@gmail.com"
 
 USER root
 
@@ -15,5 +15,3 @@ COPY ./     $webServerFileRoot
 
 RUN ls -lha $webServerFileRoot
 
-# Expose ports for the web server
-EXPOSE 80

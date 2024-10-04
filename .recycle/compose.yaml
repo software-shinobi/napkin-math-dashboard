@@ -1,0 +1,14 @@
+services:
+
+    paycheck-calculator:
+
+        container_name: paycheck-calculator
+
+        image: softwareshinobi/simple-javascript-paycheck-calculator
+
+        ports:
+
+            - 8181:80
+
+        restart: always
+
