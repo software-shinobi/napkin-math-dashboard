@@ -1,17 +1,17 @@
-#
-# Dockerfile for the Paycheck Calculator Web Application
-#
+##
+## Dockerfile / Simple Javascript Paychec Calculator
+##
+
 FROM httpd
 
-MAINTAINER Troy Burney "the.software.shinobi@gmail.com"
+
+MAINTAINER Software Shinobi "the.software.shinobi@gmail.com"
 
 USER root
 
-ENV webServerFileRoot /usr/local/apache2/htdocs/
+WORKDIR /usr/local/apache2/htdocs/
 
-RUN rm -rf  $webServerFileRoot
+COPY . .
 
-COPY ./     $webServerFileRoot
-
-RUN ls -lha $webServerFileRoot
+RUN ls -lha
 
